@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
-
 import vercel from "@astrojs/vercel/serverless";
+
+import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,5 +11,6 @@ export default defineConfig({
     port: 4321,
     host: true
   },
-  adapter: vercel()
+  adapter: vercel(),
+  integrations: [tailwind()]
 });
