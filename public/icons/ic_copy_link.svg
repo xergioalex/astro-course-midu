@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_copy_link</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ic_copy_link" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="baseline-link-24px" transform="translate(3.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="if_content-copy_326595">
+                <path d="M10.1818182,0 L1.45454545,0 C0.654545455,0 0,0.654545455 0,1.45454545 L0,11.6363636 L1.45454545,11.6363636 L1.45454545,1.45454545 L10.1818182,1.45454545 L10.1818182,0 Z M12.3636364,2.90909091 L4.36363636,2.90909091 C3.56363636,2.90909091 2.90909091,3.56363636 2.90909091,4.36363636 L2.90909091,14.5454545 C2.90909091,15.3454545 3.56363636,16 4.36363636,16 L12.3636364,16 C13.1636364,16 13.8181818,15.3454545 13.8181818,14.5454545 L13.8181818,4.36363636 C13.8181818,3.56363636 13.1636364,2.90909091 12.3636364,2.90909091 Z M12.3636364,14.5454545 L4.36363636,14.5454545 L4.36363636,4.36363636 L12.3636364,4.36363636 L12.3636364,14.5454545 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

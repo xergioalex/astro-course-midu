@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  astrocourse: &astrocourse
+    user: '${UID}'
+    build:
+      context: .
+      dockerfile: ./astrocourse/Dockerfile
+    working_dir: /app
+    volumes:
+      - ../..:/app
+    ports:
+      - '4323:4321'
+    env_file:
+      - astrocourse/.env
+    command:
+      - /bin/sh
+      - -c
+      - |
+        sleep infinity

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_volume_100</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ic_volume_100" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="if_ic_volume_up_48px_3669408" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M0,5.26339795 L0,10.7366021 L3.77777778,10.7366021 L8.5,15.2976055 L8.5,0.702394527 L3.77777778,5.26339795 L0,5.26339795 Z M12.75,8 C12.75,6.38996579 11.7866667,4.99885975 10.3888889,4.32839225 L10.3888889,11.6761688 C11.7866667,11.0011403 12.75,9.61003421 12.75,8 Z M10.3888889,0 L10.3888889,1.88369441 C13.1183333,2.668187 15.1111111,5.10832383 15.1111111,8 C15.1111111,10.8916762 13.1183333,13.331813 10.3888889,14.1163056 L10.3888889,16 C14.1713889,15.1698974 17,11.9087799 17,8 C17,4.09122007 14.1713889,0.830102623 10.3888889,0 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

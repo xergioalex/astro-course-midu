@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_volume_50</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ic_volume_50" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="volume-copy" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="if_ic_volume_up_48px_3669408">
+                <path d="M0,5.27719298 L0,10.9614035 L3.78947368,10.9614035 L8.52631579,15.6982456 L8.52631579,0.540350877 L3.78947368,5.27719298 L0,5.27719298 Z M12.7894737,8.11929825 C12.7894737,6.44719298 11.8231579,5.00245614 10.4210526,4.30614035 L10.4210526,11.937193 C11.8231579,11.2361404 12.7894737,9.79140351 12.7894737,8.11929825 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
