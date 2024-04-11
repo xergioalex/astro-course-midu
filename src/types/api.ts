@@ -1,4 +1,4 @@
-export interface APISpaceXResponse {
+export type APISpaceXResponse = {
   docs:          Doc[];
   totalDocs:     number;
   offset:        number;
@@ -12,7 +12,7 @@ export interface APISpaceXResponse {
   nextPage:      number;
 }
 
-export interface Doc {
+export type Doc = {
   fairings:              Fairings | null;
   links:                 Links;
   static_fire_date_utc:  Date | null;
@@ -42,7 +42,7 @@ export interface Doc {
   id:                    string;
 }
 
-export interface Core {
+export type Core = {
   core:            string;
   flight:          number;
   gridfins:        boolean;
@@ -58,13 +58,13 @@ export enum DatePrecision {
   Hour = "hour",
 }
 
-export interface Failure {
+export type Failure = {
   time:     number;
   altitude: number | null;
   reason:   string;
 }
 
-export interface Fairings {
+export type Fairings = {
   reused:           boolean | null;
   recovery_attempt: boolean | null;
   recovered:        boolean | null;
@@ -77,7 +77,7 @@ export enum Launchpad {
   The5E9E4502F5090995De566F86 = "5e9e4502f5090995de566f86",
 }
 
-export interface Links {
+export type Links = {
   patch:      Patch;
   reddit:     Reddit;
   flickr:     Flickr;
@@ -88,17 +88,17 @@ export interface Links {
   wikipedia:  string;
 }
 
-export interface Flickr {
+export type Flickr = {
   small:    any[];
   original: any[];
 }
 
-export interface Patch {
+export type Patch = {
   small: string;
   large: string;
 }
 
-export interface Reddit {
+export type Reddit = {
   campaign: null;
   launch:   null | string;
   media:    null;

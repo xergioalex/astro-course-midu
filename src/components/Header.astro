@@ -1,30 +1,49 @@
 ---
-import HeaderButton from "./HeaderButton.astro"
 
+import HeaderButton from "./HeaderButton.astro";
+import QuestionIcon from "./icons/QuestionIcon.astro";
+import RocketIcon from "./icons/RocketIcon.astro";
+import ClockIcon from "./icons/ClockIcon.astro";
+/* import { Counter } from "./Counter" */
+/* interface Props {
+	title: string;
+	body: string;
+	href: string;
+}
 
-console.log('javascript header')
+const { href, title, body } = Astro.props; */
 ---
 
 <header class="py-8 px-4 mx-auto max-w-xl lg:py-16 lg:px-6">
-  <div class="mx-auto text-center mb-8 lg:mb-16">
-    <h1 class="text-6xl text-white">SpaceX Launches</h1>
-    <p class="font-light text-grey-500 sm:text-xl dark:text-gray-400 ">
-      All information about SpaceX launches
+  <div class="mx-auto text-center mb-8 lg:mb-8">
+    <a class="text-5xl tracking-tight font-bold text-white" href="/">
+      SpaceX Launches 🚀
+    </a>
+    <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400 ">
+      All the information about SpaceX launches
     </p>
   </div>
+  <!-- Example of how to use a preact component
+  persisting value between pages -->
+  <!-- <Counter client:visible transition:persist /> -->
 
   <nav class="flex flex-col items-center justify-between w-full text-center md:flex-row">
-    <HeaderButton href="/">
-      <svg slot="before" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-rocket"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3" /><path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3" /><path d="M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /></svg>
-      Últimos lanzamientos
+    <HeaderButton class="text-white" href="/">
+      Last launches
+      <RocketIcon slot="before"/>
     </HeaderButton>
-    <HeaderButton href="/about">
-      <svg slot="before" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M12 9h.01" /><path d="M11 12h1v4h1" /></svg>
-      Sobre el proyecto
+    <HeaderButton class="text-white" href="/oldest">
+      Oldest launches
+      <ClockIcon slot="before"/>
     </HeaderButton>
-    <HeaderButton href="/oldest">
-      <svg slot="before" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-clock-down"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20.984 12.535a9 9 0 1 0 -8.431 8.448" /><path d="M12 7v5l3 3" /><path d="M19 16v6" /><path d="M22 19l-3 3l-3 -3" /></svg>
-      Los más viejos
+    <HeaderButton class="text-white" href="/about">
+      About the project
+      <QuestionIcon slot="before"/>
     </HeaderButton>
   </nav>
+
 </header>
+
+<style>
+	
+</style>

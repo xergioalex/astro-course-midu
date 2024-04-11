@@ -1,7 +1,7 @@
 ---
 
 title: 'Contenido de la página'
-layout: '../layouts/Layout.astro'
+layout: '../../layouts/Layout.astro'
 
 ---
 
