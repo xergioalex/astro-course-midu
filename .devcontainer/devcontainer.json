@@ -23,7 +23,8 @@
         "EditorConfig.EditorConfig",
         "bradlc.vscode-tailwindcss",
         "astro-build.astro-vscode",
-        "unifiedjs.vscode-mdx"
+        "unifiedjs.vscode-mdx",
+        "WallabyJs.console-ninja"
       ]
     }
   }
